@@ -19,7 +19,7 @@ body {
 
 h1 {
     margin-bottom: 20px;
-    color: #783f06;
+    color: #955405;
 }
 
 .story-content {
@@ -46,17 +46,17 @@ h1 {
 .buttons button {
     padding: 10px 20px;
     background-color: #ffffff;
-    color: #292424;
+    color: #efa609;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 1rem;
     transition: background-color 0.3s ease;
 }
-
+/*
 .buttons button:hover {
-    background-color: #ffffff;
-}
+    background-color: #ffffff; 
+} */
 
 #previous-story {
     margin-right: 10px;
@@ -109,6 +109,14 @@ h1 {
 
 /* Style for the icons in the navigation buttons */
 .buttons button img {
-    width: 25px; /* Adjust the size as needed */
-    height: 25px; /* Adjust the size as needed */
+    width: 30px; /* Default icon size */
+    height: 30px;
+}
+
+/* Media query for smaller screens (mobile devices) */
+@media (max-width: 768px) {
+    .buttons button img {
+        width: 20px; /* Smaller icon size for mobile */
+        height: 20px;
+    }
 }
