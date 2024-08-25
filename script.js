@@ -8,6 +8,7 @@ const storyNumber = document.getElementById('story-number');
 const storyInput = document.getElementById('story-input');
 const goToStoryButton = document.getElementById('go-to-story');
 const audioPlayer = document.getElementById('audio-player');
+const playAudioButton = document.getElementById('play-audio');
 let currentStoryIndex = 0;
 let stories = [
     {
@@ -78,6 +79,10 @@ function goToStory(index) {
     }
 }
 
+function playAudio() {
+    audioPlayer.play();
+}
+
 updateStory();
 
 previousButton.addEventListener('click', () => {
@@ -105,3 +110,5 @@ translateEnButton.addEventListener('click', () => {
 goToStoryButton.addEventListener('click', () => {
     goToStory(parseInt(storyInput.value));
 });
+
+playAudioButton.addEventListener('click', playAudio); 
