@@ -19,7 +19,7 @@ body {
 
 h1 {
     margin-bottom: 20px;
-    color: #714406dc;
+    color: #783f06;
 }
 
 .story-content {
@@ -45,8 +45,8 @@ h1 {
 
 .buttons button {
     padding: 10px 20px;
-    background-color: #714406dc;
-    color: #fff;
+    background-color: #ffffff;
+    color: #292424;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -55,7 +55,7 @@ h1 {
 }
 
 .buttons button:hover {
-    background-color: #87540c;
+    background-color: #ffffff;
 }
 
 #previous-story {
@@ -77,8 +77,8 @@ h1 {
 .translation-container button {
     margin: 0 5px;
     padding: 8px 12px;
-    background-color: #f2df0e;
-    color: rgb(50, 49, 49);
+    background-color: #4CAF50;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -87,11 +87,18 @@ h1 {
 }
 
 .translation-container button:hover {
-    background-color: #f7aa04;
+    background-color: #3e8e41;
 }
 
+#story-input {
+    width: 50px;
+    margin-right: 10px;
+}
 
-/* Same as before */
+#audio-player {
+    margin-top: 10px;
+    width: 100%;
+}
 
 .story-number {
     text-align: center;
@@ -100,16 +107,8 @@ h1 {
     margin-bottom: 10px;
 }
 
-/* Same as before */
-
-#story-input {
-    width: 50px;
-    margin-right: 10px;
-}
-
-/* Same as before */
-
-#audio-player {
-    margin-top: 10px;
-    width: 100%;
+/* Style for the icons in the navigation buttons */
+.buttons button img {
+    width: 25px; /* Adjust the size as needed */
+    height: 25px; /* Adjust the size as needed */
 }
