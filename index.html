@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSK1 故事</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HSK1 故事 - 30 Stories</h1>
+        <div class="story-content">
+            <div class="story-number" id="story-number"></div>
+            <div class="story" id="current-story"></div>
+            <audio id="audio-player" controls></audio>
+            <div class="translation-container">
+                <button id="translate-zh">中文</button>
+                <button id="translate-ar">العربية</button>
+                <button id="translate-en">English</button>
+            </div>
+        </div>
+        <div class="buttons">
+            <input type="number" id="story-input" min="1" max="30">
+            <button id="go-to-story">跳转</button>
+            <button id="previous-story">上一页</button>
+            <button id="next-story">下一页</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

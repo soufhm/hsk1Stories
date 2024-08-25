@@ -1,0 +1,115 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 600px;
+    max-width: 90%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #714406dc;
+}
+
+.story-content {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: left;
+    line-height: 1.6;
+    font-size: 1.2rem;
+    direction: ltr; /* Set direction to left-to-right by default */
+}
+
+.story-content.ar {
+    direction: rtl; /* Set direction to right-to-left for Arabic */
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    background-color: #714406dc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #87540c;
+}
+
+#previous-story {
+    margin-right: 10px;
+}
+
+#previous-story:disabled,
+#next-story:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.translation-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.translation-container button {
+    margin: 0 5px;
+    padding: 8px 12px;
+    background-color: #f2df0e;
+    color: rgb(50, 49, 49);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.translation-container button:hover {
+    background-color: #f7aa04;
+}
+
+
+/* Same as before */
+
+.story-number {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Same as before */
+
+#story-input {
+    width: 50px;
+    margin-right: 10px;
+}
+
+/* Same as before */
+
+#audio-player {
+    margin-top: 10px;
+    width: 100%;
+}
