@@ -12,9 +12,9 @@ const playAudioButton = document.getElementById('play-audio');
 let currentStoryIndex = 0;
 let stories = [
     {
-        chinese: "故事一： 上 不 个 书 买 了 些 人 他 会 住 你 做 写 冷 几 去 叫 号 吃 吗 听 呢 和 哪 喂 喝 回 在 坐 块 多 大 太 她 好 字 家 小 少 岁 年 开 很 想 我 是 月 有 本 来 水 点 热 爱 狗 猫 的 看 能 茶 菜 说 请 读 谁 这 那 都 里 钱 一 七 三 下 九 二 五 八 六 十 四 上午 下午 下雨 东西 中午 中国 什么 今天 儿子 先生 再见 分钟 前面 北京 医生 医院 同学 名字",
-        arabic: "قصة 1:  كان هناك رجل اسمه لي. كان لي يعيش في مدينة صغيرة. كان لي لديه صديق اسمه وانغ. كان وانغ يحب أن يلعب كرة القدم. كان لي يحب أن يقرأ الكتب. كان لي ووانغ صديقين مقربين.", 
-        english: "Story 1: There was a man named Li. Li lived in a small city. Li had a friend named Wang. Wang loved to play football. Li loved to read books. Li and Wang were good friends.",
+        chinese: "今天，我和朋友去商店买了水果和茶。下午，我们在学校里坐着聊天。看见一只狗，我们都很高兴。晚上，我们一起看电影。电影很好看。回家后，我早早睡觉了",
+        arabic: "اليوم، أنا و صديقي ذهبنا إلى المتجر واشترينا فاكهة وشاي. في المساء، جلسنا في المدرسة وتحدثنا. شاهدنا كلباً، شعرنا بالسعادة. بعد ذلك، ذهبنا معًا لمشاهدة فيلم. كان الفيلم جيدًا. بعد العودة إلى المنزل، نمت مبكرًا.", 
+        english: "Today, my friend and I went to the store and bought some fruit and tea. In the afternoon, we sat in the school and chatted. We saw a dog, and we felt happy. In the evening, we watched a movie together. The movie was good. After returning home, I went to bed early.",
         audioSrc: "audio/story1.mp3" 
     },
     {
